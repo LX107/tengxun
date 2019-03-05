@@ -1,0 +1,100 @@
+/* 全局样式*/
+body,
+h1{
+	margin: 0;
+}
+input{
+	outline: none;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	padding: 5px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 14px;
+	color: #333;
+}
+/* header样式 */
+.header{
+	margin-bottom: 20px;
+	overflow: hidden;
+	background-color: #EFEFEF;
+}
+.header>a{
+	float: left;
+	width: 120px;
+	height: 36px;
+	margin: 10px 20px;
+	text-indent: -9999px;
+	background: url(../img/googlelogo.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.header span{
+	float: right;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+.signupBtn{
+	padding: 5px 20px;
+	color: #fff;
+	font-size: 12px;
+	background: #4B8DF8;
+}
+.main{
+	width: 910px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main h1{
+	text-align: center;
+	margin: 20px 0;
+	font-size: 36px;
+	color: #55557A;
+	font-weight: 100;
+}
+
+.signImg{
+	float: left;
+	width: 410px;
+}
+.signInfo{
+	width: 400px;
+	margin-left: 30px;
+	margin-top: 15px;
+	padding:20px 30px;
+	float: right;
+	background: #EFEFEF;
+}
+.signInfo fieldset{
+	border: none;
+}
+.signInfo legend{
+	font-weight: bold;
+}
+.element{
+	padding-top: 5px;
+}
+.PW input{
+	width: 357px;
+}
+.ri select{
+	width: 105px;
+	height: 25px;
+	border: 1px solid #ccc;
+}
+.di select{
+	width: 370px;
+	height: 25px;
+	border: 1px solid #ccc;
+}
+.btu{
+	margin-right: 18px;
+	float: right;
+	margin-top: 10px;
+	width: 80px;
+	background-color: #4B8DF8;
+	color: #D7D9FC;
+}
